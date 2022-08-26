@@ -10,7 +10,7 @@ using namespace std;
 vector< pair<int, int> > findSub(int arr[], int n)
 {
 	
-	unordered_map<int, vector<int> > map;
+	unordered_map<int, vector<int> > map; // for storing the sum uto that index
 
 	
 	vector <pair<int, int>> out;  // for containing the sub array strting index and ending index whose sum == 0
